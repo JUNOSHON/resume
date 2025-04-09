@@ -1,7 +1,7 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const programmingLanguages: ISkill.Skill = {
-  category: 'Programming Languages',
+const vendor: ISkill.Skill = {
+  category: 'Vendor',
   items: [
     {
       title: 'C',
@@ -30,8 +30,8 @@ const programmingLanguages: ISkill.Skill = {
   ],
 };
 
-const kernelDevelopment: ISkill.Skill = {
-  category: 'Kernel Development',
+const protocol: ISkill.Skill = {
+  category: 'Protocol',
   items: [
     {
       title: 'Kernel Programming',
@@ -52,8 +52,8 @@ const kernelDevelopment: ISkill.Skill = {
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
+const layer: ISkill.Skill = {
+  category: 'Layer',
   items: [
     {
       title: 'Docker',
@@ -108,8 +108,8 @@ const automation: ISkill.Skill = {
   ],
 };
 
-const networkSecurity: ISkill.Skill = {
-  category: 'Network Security',
+const aws: ISkill.Skill = {
+  category: 'AWS',
   items: [
     {
       title: 'iptables',
@@ -138,8 +138,8 @@ const networkSecurity: ISkill.Skill = {
   ],
 };
 
-const misc: ISkill.Skill = {
-  category: 'Misc',
+const linux: ISkill.Skill = {
+  category: 'Linux',
   items: [
     {
       title: 'Coffee Brewing',
@@ -164,15 +164,8 @@ const misc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    kernelDevelopment,
-    virtualization,
-    automation,
-    networkSecurity,
-    misc,
-  ],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [vendor, protocol, layer, automation, aws, linux],
+  tooltip: '1: 취미 수준\n2: 기초 수준\n3: 실무 적용 가능 수준',
 };
 
 export default skill;

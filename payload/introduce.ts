@@ -5,10 +5,10 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '현재 Cisco 골드파트너사에서 네트워크 필드 엔지니어로 근무하고 있습니다. 주로 Cisco, HPE 사의 장비를 다루며 주로 공공기관의 사업을 수주하여 네트워크를 구축/유지보수하는 프로젝트에 참여하고 있습니다.',
+    '클라우드 환경의 네트워크에 관심이 많고, 계층과 환경을 가리지 않는 엔지니어가 되기 위해 노력하고 있습니다. 전통적인 네트워크 엔지니어의 역할이었던 L2/L3를 벗어나 L4/L7 및 컨테이너 네트워킹 등을 학습해 언제든지 서비스의 네트워크 안정성을 보장하는 엔지니어가 되고 싶습니다.    ',
   ],
-  sign: 'Tux',
+  // sign: 'Juno',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,
