@@ -1,5 +1,5 @@
-import favicon from '../asset/favicon.ico';
-import previewImage from '../asset/preview.jpg';
+import favicon from '../asset/aws.jpg';
+import previewImage from '../asset/sample_juno.png';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = 'Resume: JUNO SHON';
@@ -19,7 +19,7 @@ export const _global: IGlobal.Payload = {
           url: previewImage,
           width: 800,
           height: 600,
-          alt: 'OpenGraph Image Sample.png',
+          alt: 'junoshon-resume',
         },
       ],
       type: 'profile',
