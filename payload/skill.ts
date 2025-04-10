@@ -4,27 +4,15 @@ const vendor: ISkill.Skill = {
   category: 'Vendor',
   items: [
     {
-      title: 'C',
+      title: 'Cisco',
       level: 3,
     },
     {
-      title: 'Shell Scripting',
+      title: 'HPE',
       level: 3,
     },
     {
-      title: 'Python',
-      level: 3,
-    },
-    {
-      title: 'Perl',
-      level: 2,
-    },
-    {
-      title: 'Golang',
-      level: 2,
-    },
-    {
-      title: 'Rust',
+      title: 'Fortinet',
       level: 1,
     },
   ],
@@ -34,19 +22,15 @@ const protocol: ISkill.Skill = {
   category: 'Protocol',
   items: [
     {
-      title: 'Kernel Programming',
+      title: 'OSPF',
       level: 3,
     },
     {
-      title: 'GNU Debugger',
+      title: 'BGP',
       level: 3,
     },
     {
-      title: 'Memory Management',
-      level: 2,
-    },
-    {
-      title: 'System Call Interface',
+      title: 'TCP',
       level: 2,
     },
   ],
@@ -56,24 +40,20 @@ const layer: ISkill.Skill = {
   category: 'Layer',
   items: [
     {
-      title: 'Docker',
+      title: 'L2',
       level: 3,
     },
     {
-      title: 'KVM',
+      title: 'L3',
       level: 3,
     },
     {
-      title: 'Xen',
+      title: 'L4',
       level: 2,
     },
     {
-      title: 'VirtualBox',
+      title: 'L7',
       level: 2,
-    },
-    {
-      title: 'VMware ESXi',
-      level: 1,
     },
   ],
 };
@@ -83,26 +63,18 @@ const automation: ISkill.Skill = {
   items: [
     {
       title: 'Ansible',
-      level: 3,
-    },
-    {
-      title: 'Puppet',
-      level: 3,
-    },
-    {
-      title: 'Chef',
-      level: 2,
-    },
-    {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
-      title: 'CI/CD Pipelines',
       level: 1,
     },
     {
-      title: 'Infrastructure as Code',
+      title: 'Shell Script',
+      level: 1,
+    },
+    {
+      title: 'Python',
+      level: 2,
+    },
+    {
+      title: 'Terraform',
       level: 1,
     },
   ],
@@ -112,28 +84,20 @@ const aws: ISkill.Skill = {
   category: 'AWS',
   items: [
     {
-      title: 'iptables',
+      title: 'VPC',
       level: 3,
     },
     {
-      title: 'OpenSSH',
+      title: 'CloudFront',
       level: 3,
     },
     {
-      title: 'OpenSSL',
+      title: 'ELB',
       level: 2,
     },
     {
-      title: 'NACLs',
+      title: 'Route53',
       level: 2,
-    },
-    {
-      title: 'VPN Technologies',
-      level: 2,
-    },
-    {
-      title: 'Intrusion Detection',
-      level: 1,
     },
   ],
 };
@@ -142,22 +106,10 @@ const linux: ISkill.Skill = {
   category: 'Linux',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Redhat',
     },
     {
-      title: "Rubik's Cube Solving",
-    },
-    {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
+      title: 'Ubuntu',
     },
   ],
 };

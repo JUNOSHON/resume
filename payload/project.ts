@@ -18,22 +18,6 @@ const project: IProject.Payload = {
         },
       ],
     },
-    {
-      title: 'Global Linux Bootcamp',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
-      where: 'Open Source Community',
-      descriptions: [
-        {
-          content:
-            'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-        },
-        {
-          content:
-            'Successfully trained over 5,000 participants in system administration and security.',
-        },
-      ],
-    },
   ],
 };
 

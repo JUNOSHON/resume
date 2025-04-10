@@ -5,12 +5,12 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: '"Embracing Linux in the Age of Cloud Computing"',
-      subTitle: 'Keynote Speaker at the Open Source Summit',
+      title: '"발표주제"',
+      subTitle: '~~~어디서',
       at: '2017-10',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: '~~~발표',
         },
         {
           content: 'Slideshare:',
