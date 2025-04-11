@@ -12,6 +12,15 @@ const openSource: IOpenSource.Payload = {
         },
       ],
     },
+    {
+      title: 'Zabbix',
+      descriptions: [
+        {
+          content: 'Network Monitoring',
+          href: 'https://github.com/zabbix/zabbix',
+        },
+      ],
+    },
   ],
 };
 

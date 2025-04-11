@@ -7,7 +7,7 @@ const presentation: IPresentation.Payload = {
     {
       title: '"발표주제"',
       subTitle: '~~~어디서',
-      at: '2017-10',
+      at: '2025-04',
       descriptions: [
         {
           content: '~~~발표',
