@@ -11,7 +11,7 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '네트워크 엔지니어 손준호 이력서(작성중)',
+    title: 'Network Engineer Junho Shon Resume (In Progress)',
     // small: '(JUNO)',
   },
   contact: [
@@ -32,7 +32,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '연락은 이메일로 부탁드립니다.',
+    title: 'Please contact me via email.',
     icon: faBell,
   },
 };

@@ -5,12 +5,12 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: '(주)링네트',
+      title: 'Ringnet Co., Ltd.',
       positions: [
         {
           title: 'Network Field Engineer',
           startedAt: '2025-01',
-          descriptions: ['L2/L3 스위치 구축 및 유지보수'],
+          descriptions: ['L2/L3 switch installation and maintenance'],
           skillKeywords: ['Cisco C9K', 'Cisco N9K', 'HPE FlexNetwork'],
         },
       ],

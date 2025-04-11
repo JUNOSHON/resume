@@ -5,12 +5,12 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: '"발표주제"',
-      subTitle: '~~~어디서',
+      title: '"Presentation Topic"',
+      subTitle: '~~~Where',
       at: '2025-04',
       descriptions: [
         {
-          content: '~~~발표',
+          content: '~~~Presentation',
         },
         {
           content: 'Slideshare:',

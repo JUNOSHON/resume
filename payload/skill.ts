@@ -117,7 +117,7 @@ const linux: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [vendor, protocol, layer, automation, aws, linux],
-  tooltip: '1: 취미 수준\n2: 기초 수준\n3: 실무 적용 가능 수준',
+  tooltip: '1: Hobby level\n2: Basic level\n3: Applicable in practice',
 };
 
 export default skill;

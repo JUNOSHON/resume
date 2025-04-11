@@ -5,8 +5,9 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: '한밭대학교 정보통신공학과',
-      subTitle: '컴퓨터 네트워크, UNIX 시스템, 운영체제, 자료구조 과목 이수',
+      title: 'Hanbat National University, Department of Information and Communication Engineering',
+      subTitle:
+        'Completed courses in Computer Networks, UNIX Systems, Operating Systems, Data Structures',
       startedAt: '2019-03',
       endedAt: '2024-08',
     },
