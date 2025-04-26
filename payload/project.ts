@@ -9,13 +9,28 @@ const project: IProject.Payload = {
       where: '서울시 도시기반시설본부',
       descriptions: [
         { content: '업무망, 제어망, 인터넷 망 등 L1 광케이블 회선 구성' },
-        { content: '샷시급 백본 스위치 4대, 고정형 스위치 약 130대 설치' },
-        {
-          content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
-          descriptions: [{ content: '30% improvement in system resource efficiency' }],
-        },
+        { content: '샷시급 백본 스위치 4대, 고정형 스위치 약 130대 설치 계획 수립 및 구성도 작성' },
+        // {
+        //   content:
+        //     'Achieved significant improvements in system performance and resource management.',
+        //   weight: 'MEDIUM',
+        //   descriptions: [{ content: '30% improvement in system resource efficiency' }],
+        // },
+      ],
+    },
+    {
+      title: '국군 제 1068부대 노후 LAN 교체사업',
+      startedAt: '2025-02',
+      where: '국군 제 1068 부대',
+      descriptions: [
+        { content: '인트라넷 망, 인터넷망 등 L1 광케이블 회선 구성 및 라벨링' },
+        { content: '노후 샷시급 백본 스위치 철거 및 집선 L3 스위치 교체' },
+        // {
+        //   content:
+        //     'Achieved significant improvements in system performance and resource management.',
+        //   weight: 'MEDIUM',
+        //   descriptions: [{ content: '30% improvement in system resource efficiency' }],
+        // },
       ],
     },
   ],
