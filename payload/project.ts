@@ -21,6 +21,7 @@ const project: IProject.Payload = {
     {
       title: '국군 제 1068부대 노후 LAN 교체사업',
       startedAt: '2025-02',
+      endedAt: '2025-04',
       where: '국군 제 1068 부대',
       descriptions: [
         { content: '인트라넷 망, 인터넷망 등 L1 광케이블 회선 구성 및 라벨링' },
@@ -31,6 +32,15 @@ const project: IProject.Payload = {
         //   weight: 'MEDIUM',
         //   descriptions: [{ content: '30% improvement in system resource efficiency' }],
         // },
+      ],
+    },
+    {
+      title: '하나로유통 POS 스위치 교체',
+      startedAt: '2025-05',
+      endedAt: '2025-05',
+      where: '농협 하나로마트 지소점 노후 POS 스위치 교체',
+      descriptions: [
+        { content: '하나로마트 신촌, 서대문, 청라, 목포, 무안, 부산 지점 노후 스위치 교체' },
       ],
     },
   ],

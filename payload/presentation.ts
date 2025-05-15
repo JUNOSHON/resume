@@ -7,7 +7,7 @@ const presentation: IPresentation.Payload = {
     {
       title: '다양한 계층의 Load Balancer 종류 소개',
       subTitle: '개발자 글쓰기 모임 Monday 9pm',
-      at: '2025-04',
+      at: '2024-10',
       descriptions: [
         {
           content: '로드밸런싱의 개념과 로드밸런서 사례 소개 - Meduim 기고 글',
