@@ -13,6 +13,7 @@ import { Presentation } from '../component/presentation';
 import { Profile } from '../component/profile';
 import { Project } from '../component/project';
 import { Skill } from '../component/skill';
+import { Certificate } from '../component/certificate';
 import { Style } from '../component/common/Style';
 import Payload from '../payload';
 // import { Article } from '../component/article';
@@ -31,6 +32,7 @@ function Resume() {
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
         <Skill.Component payload={Payload.skill} />
+        <Certificate.Component payload={Payload.certificate} />
         {/* <OpenSource.Component payload={Payload.openSource} /> */}
         <Presentation.Component payload={Payload.presentation} />
         {/* <Article.Component payload={Payload.article} /> */}
