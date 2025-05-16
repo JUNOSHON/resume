@@ -12,7 +12,6 @@ function judgeCnameCreation() {
     console.error('shellwork: The homepage field in package.json is required.');
   }
 
-  // ! 아래 정규표현식에 걸리면 github pages 도메인으로 간주하고 CNAME 을 생성하지 않는다.
   const githubIoRegex = /.+\.github\.io\/.+/;
 
   if (githubIoRegex.test(homepage)) {
@@ -24,7 +23,6 @@ function judgeCnameCreation() {
     process.exit(0);
   }
 
-  // * 위 정규표현식에 걸리지 않았을 경우 Custom Domain 으로 간주하고 docs/CNAME 을 생성한다.
   const url = new URL(homepage);
 
   console.log(
@@ -33,6 +31,7 @@ function judgeCnameCreation() {
     ),
   );
 
+  shelljs.mkdir('-p', path.join(__dirname, 'docs'));
   shelljs.echo(url.hostname).to(path.join(__dirname, 'docs/CNAME'));
 }
 
@@ -40,6 +39,7 @@ function judgeCnameCreation() {
  * * create docs/.nojekyll empty file
  */
 function createNojekyll() {
+  shelljs.mkdir('-p', path.join(__dirname, 'docs')); // ✅ 폴더 생성 추가
   shelljs.touch(path.join(__dirname, 'docs/.nojekyll'));
   console.log(chalk.yellow('shellwork: create docs/.nojekyll done.'));
 }
