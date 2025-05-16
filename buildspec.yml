@@ -10,5 +10,6 @@ phases:
   build:
     commands:
       - npm run build
-      - aws s3 sync ./build s3://juno-resume --delete
+      - npm run export
+      - aws s3 sync ./out s3://juno-resume --delete
       - aws cloudfront create-invalidation --distribution-id E28MO0HY7W3BK5 --paths "/*"
