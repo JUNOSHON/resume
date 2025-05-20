@@ -8,7 +8,6 @@ import image from '../asset/sample_juno.png';
 const profile: IProfile.Payload = {
   disable: false,
 
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
     title: '네트워크 엔지니어 손준호 이력서',

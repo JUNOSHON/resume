@@ -9,7 +9,10 @@ const project: IProject.Payload = {
       where: '서울시 도시기반시설본부',
       descriptions: [
         { content: '업무망, 제어망, 인터넷 망 등 L1 광케이블 회선 구성' },
-        { content: '샷시급 백본 스위치 4대, 고정형 스위치 약 130대 설치 계획 수립 및 구성도 작성' },
+        {
+          content:
+            'N9K-9508 백본 스위치 4식, 집선 L3 N9K-93180-FX2 6대, L2 스위치 114대 설치 및 관리',
+        },
         // {
         //   content:
         //     'Achieved significant improvements in system performance and resource management.',
@@ -40,7 +43,7 @@ const project: IProject.Payload = {
       endedAt: '2025-05',
       where: '농협 하나로마트 지소점 노후 POS 스위치 교체',
       descriptions: [
-        { content: '하나로마트 신촌, 서대문, 청라, 목포, 무안, 부산 지점 노후 스위치 교체' },
+        { content: '하나로마트 신촌, 서대문, 청라, 목포, 무안 지점 노후 스위치 교체' },
       ],
     },
   ],
