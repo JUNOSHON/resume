@@ -27,7 +27,7 @@ const protocol: ISkill.Skill = {
     },
     {
       title: 'BGP',
-      level: 3,
+      level: 2,
     },
     {
       title: 'TCP',
@@ -85,11 +85,11 @@ const aws: ISkill.Skill = {
   items: [
     {
       title: 'VPC',
-      level: 3,
+      level: 2,
     },
     {
       title: 'CloudFront',
-      level: 3,
+      level: 2,
     },
     {
       title: 'ELB',
