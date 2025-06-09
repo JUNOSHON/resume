@@ -11,6 +11,7 @@ import { Introduce } from '../component/introduce';
 // import { OpenSource } from '../component/openSource';
 import { Presentation } from '../component/presentation';
 import { Profile } from '../component/profile';
+import { LargeProject } from '../component/large_project';
 import { Project } from '../component/project';
 import { Skill } from '../component/skill';
 import { Certificate } from '../component/certificate';
@@ -30,6 +31,7 @@ function Resume() {
         <Profile.Component payload={Payload.profile} />
         <Introduce.Component payload={Payload.introduce} />
         <Experience.Component payload={Payload.experience} />
+        <LargeProject.Component payload={Payload.largeProject} />
         <Project.Component payload={Payload.project} />
         <Skill.Component payload={Payload.skill} />
         <Certificate.Component payload={Payload.certificate} />

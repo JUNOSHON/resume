@@ -21,7 +21,7 @@ export const Certificate = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="CERTIFICATE">
+    <CommonSection title="Certificate">
       <CertificateRow payload={payload} />
     </CommonSection>
   );

@@ -4,6 +4,7 @@ import skill from './skill';
 import experience from './experience';
 import openSource from './openSource';
 import project from './project';
+import largeProject from './large_project';
 import presentation from './presentation';
 import education from './education';
 import article from './article';
@@ -19,6 +20,7 @@ import { ISkill } from '../component/skill/ISkill';
 import { IOpenSource } from '../component/openSource/IOpenSource';
 import { IExperience } from '../component/experience/IExperience';
 import { IProject } from '../component/project/IProject';
+import { ILargeProject } from '../component/large_project/IProject';
 import { IPresentation } from '../component/presentation/IPresentation';
 import { IEducation } from '../component/education/IEducation';
 import { IEtc } from '../component/etc/IEtc';
@@ -35,6 +37,7 @@ const Payload: Payload = {
   openSource,
   experience,
   project,
+  largeProject,
   presentation,
   article,
   education,
@@ -52,6 +55,7 @@ interface Payload {
   openSource: IOpenSource.Payload;
   experience: IExperience.Payload;
   project: IProject.Payload;
+  largeProject: ILargeProject.Payload; // largeProject 타입 추가
   presentation: IPresentation.Payload;
   education: IEducation.Payload;
   article: IArticle.Payload;
