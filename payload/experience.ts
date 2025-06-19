@@ -10,8 +10,16 @@ const experience: IExperience.Payload = {
         {
           title: 'Network Field Engineer',
           startedAt: '2025-01',
-          descriptions: ['L2/L3 스위치 구축 및 유지보수', '포트맵, 구성도 등 산출물 작성'],
-          skillKeywords: ['Cisco C9K', 'Cisco N9K', 'HPE Comware', 'OSPF'],
+          descriptions: [
+            'L2/L3 네트워크 신규 구축 및 유지보수',
+            '대규모 네트워크 구축 프로젝트 경험 및 고객사 유지보수 지원',
+          ],
+          skillKeywords: [
+            'Cisco Catalyst 9000 Series',
+            'Cisco Nexus 9000 Series',
+            'HPE Comware',
+            'AP',
+          ],
         },
       ],
     },

@@ -8,10 +8,12 @@ const project: ILargeProject.Payload = {
       startedAt: '2025-04',
       where: '서울시 도시기반시설본부',
       descriptions: [
-        { content: '업무망, 제어망, 인터넷 망 등 L1 광케이블 회선 구성 ' },
+        { content: '4호선 차량기지의 업무망, 인터넷망, 교환설비망 구축 ' },
         {
-          content:
-            'N9K-9508 백본 스위치 4식, 집선 L3 N9K-93180-FX2 6대, L2 스위치 114대 설치 및 관리',
+          content: '메인 통신기계실 외 16개 건물에 약 100대의 L2/L3 네트워크 구축',
+        },
+        {
+          content: '관제 센터와의 통신을 위한 19개 역사에 L1 광케이블 선번 구성',
         },
         // {
         //   content:
@@ -26,8 +28,10 @@ const project: ILargeProject.Payload = {
       startedAt: '2025-02',
       where: '국가철도공단',
       descriptions: [
-        { content: '수서역, 오송역, 부산역 길안내시스템 네트워크 구축' },
-        { content: '평택지제역 기설 네트워크와 신설 CCTV망 연동' },
+        {
+          content:
+            '주식회사 SR의 수서역, 오송역, 부산역 위치 측위 기반 길안내서비스의 네트워크 구축',
+        },
       ],
     },
     {
@@ -38,12 +42,6 @@ const project: ILargeProject.Payload = {
       descriptions: [
         { content: '인트라넷 망, 인터넷망 등 L1 광케이블 회선 구성 및 라벨링' },
         { content: '노후 샷시급 백본 스위치 철거 및 집선 L3 스위치 교체' },
-        // {
-        //   content:
-        //     'Achieved significant improvements in system performance and resource management.',
-        //   weight: 'MEDIUM',
-        //   descriptions: [{ content: '30% improvement in system resource efficiency' }],
-        // },
       ],
     },
   ],
