@@ -8,7 +8,7 @@ const project: ILargeProject.Payload = {
       startedAt: '2025-04',
       where: '서울시 도시기반시설본부',
       descriptions: [
-        { content: '4호선 차량기지의 업무망, 인터넷망, 교환설비망 구축 ' },
+        { content: '4호선 차량기지의 업무망, 인터넷망, 교환설비망 구축' },
         {
           content: '메인 통신기계실 외 16개 건물에 약 100대의 L2/L3 네트워크 구축',
         },
